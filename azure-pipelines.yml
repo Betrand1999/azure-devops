@@ -1,0 +1,10 @@
+trigger:
+- master
+
+pool:
+  name: self-hosted
+
+steps:
+- script: echo "Hello, world!"
+  displayName: 'Print Hello, world!'
+#
